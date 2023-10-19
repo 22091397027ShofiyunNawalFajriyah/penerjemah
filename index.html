@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Website Penerjemah Bahasa</title>
+</head>
+<body>
+    <header>
+        <h1>Website Penerjemah Bahasa</h1>
+    </header>
+    <div class="container">
+        <section id="home">
+            <h2>Selamat datang di Website Penerjemah Bahasa</h2>
+            <p>Website ini adalah sistem penerjemah bahasa yang memungkinkan Anda untuk menerjemahkan teks dari bahasa Indonesia ke Inggris dan sebaliknya dengan cepat dan mudah.</p>
+            <p>Anda dapat memasukkan teks yang ingin Anda terjemahkan ke dalam kotak teks di bawah, lalu klik tombol "Terjemahkan" untuk melihat hasilnya. Juga, Anda dapat mengubah arah terjemahan dari bahasa Indonesia ke Inggris atau sebaliknya dengan menekan tombol "Ubah Arah Terjemahan."</p>
+        </section>
+        <div class="input-container">
+            <label for="inputText">Masukkan teks:</label>
+            <textarea id="inputText" rows="4"></textarea>
+        </div>
+        <div class="output-container">
+            <label for="outputText">Hasil terjemahan:</label>
+            <textarea id="outputText"></textarea>
+        </div>
+        <div class="toggle-direction-container">
+            <button id="toggleDirectionButton">Ubah Arah Terjemahan</button>
+        </div>
+        <div class="translate-button-container">
+            <button id="translateButton">Terjemahkan</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
